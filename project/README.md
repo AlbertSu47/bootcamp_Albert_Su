@@ -22,6 +22,12 @@ deciding whether to continue using the ETF strategy.
 the analysis, evaluates the results, and reports the findings to the 
 decision owner.
 
+## Decision Window
+
+The strategy will be reviewed on a monthly basis. The portfolio manager 
+will use the updated analysis to decide whether to continue, modify, or 
+discontinue the ETF strategy.
+
 ## Useful Answer & Decision
 
 * **Type of answer:** Predictive
@@ -65,6 +71,12 @@ stakeholder needs, evaluation goals, assumptions, constraints, and risks.
 * Prepare the project for later analysis → Problem Framing & Scoping 
 (Stage 01) → Initial project scope and plan for future data collection, 
 modeling, evaluation, and reporting.
+
+## Environment
+
+- Python 3.10.20
+- Conda environment: `bootcamp_env`
+- Dependencies are listed in `requirements.txt`.
 
 ## Repo Plan
 
