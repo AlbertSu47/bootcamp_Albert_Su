@@ -55,6 +55,7 @@ notebook_shim==0.2.4
 numpy==2.2.6
 overrides==7.7.0
 packaging==26.2
+pandas==2.3.3
 pandocfilters==1.5.1
 parso==0.8.7
 pexpect==4.9.0
@@ -69,6 +70,7 @@ Pygments==2.20.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
 python-json-logger==4.1.0
+pytz==2026.3.post1
 PyYAML==6.0.3
 pyzmq==27.1.0
 referencing==0.37.0
