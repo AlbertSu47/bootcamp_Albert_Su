@@ -14,3 +14,13 @@ folder, e.g. `class_materials/stage01_problem-framing-and-scoping/`.
 ## Project Folder Rules
 - Keep project files organized and clearly named.
 - The project folder structure is set up in Stage 02.
+## Data Storage
+
+- Raw data is stored in `data/raw/` and processed data is stored in `data/processed/`.
+- CSV is used for raw tabular data because it is simple, portable, and human-readable.
+- Parquet is used for processed data because it is efficient for analytical workflows and preserves data types better.
+- Storage paths are configured through environment variables:
+  - `DATA_DIR_RAW=data/raw`
+  - `DATA_DIR_PROCESSED=data/processed`
+- The `.env` file is kept local and is not committed to Git.
+- Data is reloaded after saving to validate shape and critical data types.
